@@ -1,5 +1,12 @@
 {
   "name": "discord-vercel-bot",
   "version": "1.0.0",
-  "private": true
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "register": "node scripts/register-commands.mjs"
+  },
+  "dependencies": {
+    "tweetnacl": "^1.0.3"
+  }
 }
