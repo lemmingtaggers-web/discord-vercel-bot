@@ -3,10 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "scripts": {
-    "register": "node scripts/register-commands.mjs"
-  },
   "dependencies": {
-    "tweetnacl": "^1.0.3"
+    "tweetnacl": "^1.0.3",
+    "dotenv": "^16.4.7"
   }
 }
