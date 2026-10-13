@@ -1,4 +1,3 @@
-
 import nacl from "tweetnacl";
 
 export const config = {
